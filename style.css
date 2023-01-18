@@ -10,6 +10,7 @@ body{
     font-size: 32px;
     font-family: 'Inter', sans-serif;
     background-image: url('images/pattern-curve.svg');
+    background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: 0% 100%;
     background-size: 300px;
@@ -79,6 +80,13 @@ img{
     z-index: 99;
 }
 
+.flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .slider-arrow i:hover{
     cursor: pointer;
 }
@@ -133,7 +141,7 @@ img{
 @media (min-width: 681px) {
 
     body{
-        background-position: 0% 130%;
+        background-position: 0% 100%;
         background-size: 500px;
     }
 
